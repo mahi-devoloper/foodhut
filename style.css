@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url('./imgs/main.jpg');
+
+  height: 600px;
+  width: 100%;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  background-size: cover;
+}
+.menu1,
+.menu2,
+.logo {
+  width: 33%;
+}
+.menu1 ul {
+  list-style: none;
+  text-align: left;
+}
+.menu1 ul li {
+  display: inline;
+}
+.menu1 ul li a,
+.menu2 ul li a {
+  color: white;
+  padding: 30px 15px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+}
+.menu2 ul {
+  list-style: none;
+  text-align: right;
+}
+.menu2 ul li {
+  display: inline;
+}
+.logo img{
+    height: 60px ;
+    margin: auto;
+    display: block;
+}
