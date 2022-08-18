@@ -11,13 +11,13 @@
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  display: flex;
   background-size: cover;
 }
 .menu1,
 .menu2,
 .logo {
   width: 33%;
+  float: left;
 }
 .menu1 ul {
   list-style: none;
@@ -45,4 +45,12 @@
     height: 60px ;
     margin: auto;
     display: block;
+}
+
+.header-title h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+  padding-top: 203px;
 }
